@@ -1,0 +1,39 @@
+.mac{
+  width: 45%;
+}
+
+.mac{
+  background-color: green;
+}
+
+.sensors{
+  margin-top: 2rem;
+}
+
+.mac{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mac-child-first{
+  width: 50%;
+  height: 70%;
+}
+
+.mac-child-second{
+  width: 100%;;
+  text-align: right;
+  text-align: right;
+}
+
+.mac-h1{
+  width:100%;
+  text-align: right;
+}
+
+.mac-time{
+  width:100%;
+  text-align: right;
+}

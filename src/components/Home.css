@@ -1,0 +1,496 @@
+.parent-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-container {
+  background-color: rgb(29, 29, 43);
+  width: 15vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-body * {
+    /* background-color: red; */
+    width: 30% !important;
+  }
+  .logo {
+    margin-top: 5vh;
+    width: 200px !important;
+    height: 100px !important;
+  }
+  .rights {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .rights-child:nth-child(n) {
+    width: 20%;
+  }
+  .posted {
+    text-align: center;
+  }
+}
+
+.right-container {
+  width: 85vw;
+}
+
+.left-powred-by {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-body {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  width: 75%;
+}
+
+.left-body * {
+  margin: 0.5rem;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+}
+.dashboard * {
+  padding: 0.2rem;
+}
+
+.graphs {
+  display: flex;
+  flex-direction: row;
+}
+.graphs * {
+  padding: 0.2rem;
+}
+
+.analytics {
+  display: flex;
+  flex-direction: row;
+}
+.analytics * {
+  padding: 0.2rem;
+}
+
+.settings {
+  display: flex;
+  flex-direction: row;
+}
+.settings * {
+  padding: 0.2rem;
+}
+
+.rights {
+  display: flex;
+  flex-direction: row;
+}
+.rights * {
+  padding: 0.2rem;
+}
+
+.left-powred-by {
+  color: white;
+}
+
+.logo {
+  margin-top: 2rem;
+  background-image: url("xyma.png");
+  background-size: contain;
+  width: 10vw;
+  height: 5vw;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1000px) {
+  .parent-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .parent-container * {
+    width: 100vw;
+  }
+}
+
+.dashboard-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid rgba(6, 5, 5, 0.17);
+  height: 6vh;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.welcome {
+  margin-left: auto;
+}
+
+.h1 {
+  font-size: 2rem;
+}
+
+.right-container {
+  background-color: rgb(249, 249, 249);
+}
+
+.maps-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+}
+
+.maps {
+  width: 98%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.maps * {
+  width: 49%;
+}
+
+.first-map {
+  background: linear-gradient(rgba(15, 11, 11, 0.825), rgba(6, 3, 3, 0.865)),
+    url("map.png");
+}
+
+.device-stats {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.stats1 {
+  height: 15%;
+  width: 100%;
+}
+
+.stats2 {
+  height: 20%;
+  width: 100%;
+  background-color: rgb(12, 83, 50);
+}
+
+.stats3 {
+  height: 20%;
+  width: 100%;
+  background-color: rgb(78, 92, 171);
+}
+.sensord-visual {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#nos-data {
+  width: 40%;
+  background-color: rgb(29, 29, 43);
+  text-align: center;
+  display: grid;
+  align-items: center;
+  color: white;
+}
+
+#temp {
+  width: 100%;
+  background-color: rgb(29, 29, 43);
+  text-align: center;
+  display: grid;
+  align-items: center;
+  color: white;
+}
+
+#storage {
+  width: 25%;
+  background-color: rgb(29, 29, 43);
+  text-align: center;
+  display: grid;
+  align-items: center;
+  color: white;
+}
+
+.stats4 {
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+  margin-top: 4rem;
+  justify-content: space-between;
+}
+
+.stats4 * {
+  width: 45%;
+}
+.login {
+  background-color: rgb(29, 29, 43);
+  width: 45%;
+}
+
+.mac {
+  background-color: rgb(29, 29, 43);
+}
+
+.sensors {
+  margin-top: 2rem;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-child-first {
+  width: 50%;
+  height: 70%;
+}
+
+.login-child-second {
+  width: 100%;
+  text-align: right;
+  text-align: right;
+}
+
+.login-h1 {
+  width: 100%;
+  text-align: right;
+}
+
+.login-time {
+  width: 100%;
+  text-align: right;
+}
+
+.mac {
+  width: 45%;
+}
+
+.mac {
+  background-color: rgb(29, 29, 43);
+}
+
+.sensors {
+  margin-top: 2rem;
+}
+
+.mac {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mac-child-first {
+  width: 50%;
+  height: 70%;
+}
+
+.mac-child-second {
+  width: 100%;
+  text-align: right;
+  text-align: right;
+}
+
+.mac-h1 {
+  width: 100%;
+  text-align: right;
+}
+
+.mac-time {
+  width: 100%;
+  text-align: right;
+  padding-right: 0.2rem;
+}
+.mac-child-second {
+  color: white;
+  opacity: 0.5;
+  padding-right: 1rem;
+}
+
+.login-child-second {
+  color: white;
+  opacity: 0.5;
+  padding-right: 1rem;
+}
+
+.mac-child-first {
+  color: white;
+  opacity: 0.5;
+}
+.login-child-first {
+  color: white;
+  opacity: 0.5;
+}
+
+.thermo {
+  color: white;
+  opacity: 0.5;
+}
+
+.dashboard-headers {
+  font-weight: 500;
+}
+
+.welcome {
+  font-weight: 500;
+}
+
+.body-headers {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.body-header-container {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+}
+
+.body-header-container * {
+  width: 50%;
+  font-weight: 500;
+}
+
+.header-offline {
+  display: flex;
+  flex-direction: row;
+}
+
+.offline {
+  color: rgb(219, 74, 74);
+}
+
+.dasboard-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-body-container {
+  width: 98%;
+  display: flex;
+  height: 100% !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard-body-container *:nth-child(n) {
+  background-color: rgb(34, 32, 42);
+  border-radius: 0.5rem;
+}
+
+.dashboard-body-container * {
+  width: 23%;
+}
+@media only screen and (max-width: 1000px) {
+  .dashboard-body-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .dashboard-body-container * {
+    margin: 10px;
+    width: 98%;
+  }
+}
+
+.dashboard-containers1 {
+  display: flex;
+  flex-direction: row;
+  height: 100% !important;
+  align-items: center;
+}
+
+.dashboard-containers1 * {
+  width: 50%;
+  height: 100%;
+}
+
+.dashboard-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dashboard-stats * {
+  width: 90%;
+  text-align: right;
+}
+
+.stats-h1 {
+  font-size: 2em;
+  font-weight: 500;
+  color: white;
+}
+.stats-h2 {
+  font-size: 0.8em;
+  font-weight: 500;
+  color: white;
+}
+
+.stats-h3 {
+  font-size: 0.8em;
+  font-weight: 500;
+  color: white;
+}
+
+.dashboard-image {
+  height: 80 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-stats {
+  width: 100%;
+}
+
+.dashboard-image {
+  color: white;
+  opacity: 0.5;
+}
+.dashboard-body-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.dashboard-child,
+.graphs-child,
+.analytics-child,
+.settings-child {
+  font-family: Rowdies, cursive;
+}
